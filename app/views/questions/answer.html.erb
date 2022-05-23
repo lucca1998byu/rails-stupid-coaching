@@ -1,4 +1,9 @@
 <h1>Answer</h1>
+<form action="/answer" method="get">
+  <input type="text" name="questions" placeholder="ask a new question">
+  <input type="submit" value="Ask!" >
+</form>
+
 <p>Your response: <%=@question%></p>
 
 <p class="coach">Coach Answer: <%=@answer%></p>
